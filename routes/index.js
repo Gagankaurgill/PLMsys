@@ -8,7 +8,7 @@ var url = 'mongodb://gagangill:123456@ds155582.mlab.com:55582/librarydb';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'danish' });
+  res.render('index');
 });
 
 router.post('/insert', function(req, res, next) {
