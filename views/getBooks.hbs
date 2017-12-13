@@ -1,0 +1,34 @@
+<div class="container">
+     <br>
+     <br>
+     
+      <main role="main">
+
+        <div class="jumbotron">
+          <h1 class="display-3">Public Library Management System</h1>
+        
+        
+      
+        {{# each items }}
+            
+                <div class="item">
+                <div>Book Name: {{ this.Book_Name }}</div>
+                <div>Author: {{ this.Book_Author }}</div>
+                <div>ID: {{ this._id }}</div>
+                </div>
+            
+        {{/each}}
+
+      <br>
+
+          
+          <a class="btn btn-lg btn-success" href="/home" role="button">Exit</a>
+          </p> 
+        </div>
+
+        
+      </main>
+
+      
+
+    </div>
