@@ -4,7 +4,7 @@ var mongo = require('mongodb').MongoClient;
 var objectId = require('mongodb').ObjectID;
 var assert = require('assert');
 
-var url = 'mongodb://localhost:27017/test';
+var url = 'mongodb://gagangill:123456@ds155582.mlab.com:55582/librarydb';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
